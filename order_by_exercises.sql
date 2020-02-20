@@ -18,6 +18,3 @@ WHERE hire_date > '1990' and hire_date < '2000'
   AND birth_date LIKE '%12-25%'
   ORDER BY birth_date ASC ,hire_date DESC;
 
-SELECT * FROM employees
-WHERE last_name LIKE '%q%' AND NOT last_name LIKE '%qu%';
-
